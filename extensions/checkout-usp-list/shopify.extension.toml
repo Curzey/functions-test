@@ -51,38 +51,11 @@ api_access = true
   name = "Text 1"
 
   [[extensions.settings.fields]]
-  key = "icon"
-  type = "single_line_text_field"
-  name = "Icon 1"
-
-    [[extensions.settings.fields.validations]]
-    name = "choices"
-    value = "[\"arrowLeft\", \"arrowRight\", \"arrowUp\", \"arrowUpRight\", \"arrowDown\", \"bag\", \"calendar\", \"camera\", \"caretDown\", \"cart\", \"categories\", \"checkmark\", \"chevronLeft\", \"chevronRight\", \"chevronUp\", \"chevronDown\", \"clock\", \"close\", \"critical\", \"delete\", \"delivered\", \"delivery\", \"disabled\", \"discount\", \"email\", \"error\", \"errorFill\", \"external\", \"filter\", \"geolocation\", \"gift\", \"giftFill\", \"grid\", \"hamburger\", \"hollowCircle\", \"horizontalDots\", \"image\", \"info\", \"infoFill\", \"list\", \"lock\", \"magnify\", \"map\", \"marker\", \"minus\", \"mobile\", \"note\", \"orderBox\", \"pen\", \"plus\", \"profile\", \"question\", \"questionFill\", \"reorder\", \"return\", \"savings\", \"star\", \"starFill\", \"starHalf\", \"store\", \"success\", \"truck\", \"verticalDots\", \"warning\", \"warningFill\"]"
-
-  [[extensions.settings.fields]]
   key = "text2"
   type = "single_line_text_field"
   name = "Text 2"
 
   [[extensions.settings.fields]]
-  key = "icon2"
-  type = "single_line_text_field"
-  name = "Icon 2"
-
-    [[extensions.settings.fields.validations]]
-    name = "choices"
-    value = "[\"arrowLeft\", \"arrowRight\", \"arrowUp\", \"arrowUpRight\", \"arrowDown\", \"bag\", \"calendar\", \"camera\", \"caretDown\", \"cart\", \"categories\", \"checkmark\", \"chevronLeft\", \"chevronRight\", \"chevronUp\", \"chevronDown\", \"clock\", \"close\", \"critical\", \"delete\", \"delivered\", \"delivery\", \"disabled\", \"discount\", \"email\", \"error\", \"errorFill\", \"external\", \"filter\", \"geolocation\", \"gift\", \"giftFill\", \"grid\", \"hamburger\", \"hollowCircle\", \"horizontalDots\", \"image\", \"info\", \"infoFill\", \"list\", \"lock\", \"magnify\", \"map\", \"marker\", \"minus\", \"mobile\", \"note\", \"orderBox\", \"pen\", \"plus\", \"profile\", \"question\", \"questionFill\", \"reorder\", \"return\", \"savings\", \"star\", \"starFill\", \"starHalf\", \"store\", \"success\", \"truck\", \"verticalDots\", \"warning\", \"warningFill\"]"
-
-  [[extensions.settings.fields]]
   key = "text3"
   type = "single_line_text_field"
   name = "Text 3"
-
-  [[extensions.settings.fields]]
-  key = "icon3"
-  type = "single_line_text_field"
-  name = "Icon 3"
-
-    [[extensions.settings.fields.validations]]
-    name = "choices"
-    value = "[\"arrowLeft\", \"arrowRight\", \"arrowUp\", \"arrowUpRight\", \"arrowDown\", \"bag\", \"calendar\", \"camera\", \"caretDown\", \"cart\", \"categories\", \"checkmark\", \"chevronLeft\", \"chevronRight\", \"chevronUp\", \"chevronDown\", \"clock\", \"close\", \"critical\", \"delete\", \"delivered\", \"delivery\", \"disabled\", \"discount\", \"email\", \"error\", \"errorFill\", \"external\", \"filter\", \"geolocation\", \"gift\", \"giftFill\", \"grid\", \"hamburger\", \"hollowCircle\", \"horizontalDots\", \"image\", \"info\", \"infoFill\", \"list\", \"lock\", \"magnify\", \"map\", \"marker\", \"minus\", \"mobile\", \"note\", \"orderBox\", \"pen\", \"plus\", \"profile\", \"question\", \"questionFill\", \"reorder\", \"return\", \"savings\", \"star\", \"starFill\", \"starHalf\", \"store\", \"success\", \"truck\", \"verticalDots\", \"warning\", \"warningFill\"]"
