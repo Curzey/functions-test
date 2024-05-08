@@ -6,7 +6,7 @@ import {
   useBuyerJourneyIntercept,
 } from '@shopify/ui-extensions-react/checkout';
 
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 
 export default reactExtension(
   'purchase.checkout.actions.render-before',
@@ -50,10 +50,6 @@ function Extension() {
 
   const [checkboxAccepted, setCheckboxAccepted] = useState(false);
   const [validationError, setValidationError] = useState("");
-
-  useEffect(() => {
-    console.log({checkboxAccepted, canBlockProgress, country})
-  });
 
   useBuyerJourneyIntercept(({ canBlockProgress }) => {
     if (canBlockProgress && !checkboxAccepted) {
