@@ -33,6 +33,15 @@ export default function Index() {
       "url": "shopify:admin/settings/payments/customizations"
     },
     {
+      "title": "Delivery & Shipping",
+      "id": "delivery",
+      "description": "Manage your delivery settings.",
+      "icon": DeliveryIcon,
+      "iconColor": "black",
+      "color": "#9ccbff",
+      "url": "shopify:admin/settings/shipping/customizations"
+    },
+    {
       "title": "Checkout editor",
       "id": "checkout-editor",
       "description": "Customize the look and feel of your checkout.",

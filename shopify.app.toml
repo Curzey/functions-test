@@ -3,7 +3,7 @@
 client_id = "bca755cf30b21a7ca76a235eaa4113c4"
 name = "carstens-functions-lol-2"
 handle = "carstens-functions-lol-2"
-application_url = "https://councils-domestic-cove-ho.trycloudflare.com"
+application_url = "https://promise-sherman-licensing-boutique.trycloudflare.com"
 embedded = true
 
 [build]
@@ -17,9 +17,9 @@ scopes = "read_customers,write_delivery_customizations,write_payment_customizati
 
 [auth]
 redirect_urls = [
-  "https://councils-domestic-cove-ho.trycloudflare.com/auth/callback",
-  "https://councils-domestic-cove-ho.trycloudflare.com/auth/shopify/callback",
-  "https://councils-domestic-cove-ho.trycloudflare.com/api/auth/callback"
+  "https://promise-sherman-licensing-boutique.trycloudflare.com/auth/callback",
+  "https://promise-sherman-licensing-boutique.trycloudflare.com/auth/shopify/callback",
+  "https://promise-sherman-licensing-boutique.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
